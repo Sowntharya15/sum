@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int n,i,sum=0;
+    printf("Enter the total number of digits to be added:");
+    scanf("%d",&n);
+    int a[n];
+    for (i=0;i<n;i++)
+    {
+    scanf("%d",&a[i]); 
+    sum= sum+a[i];
+    printf("Sum of digits is %d",sum );
+    }
+    return 0;
+}
